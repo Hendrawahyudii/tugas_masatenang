@@ -75,6 +75,17 @@ class motor {
 	SapidaMotorRossi.ukuranMotor("ganal banar ");
 	SapidaMotorRossi.jumlahBan(2);
 	cout <<"===================================\n\n";
-	
-	}
+}
+	void motor::suara(string bunyi){
+	cout <<"\n"<<"bunyinya: "<<bunyi<<endl;
+}
+int motor::jalan(string roda){
+	cout <<"berjalan: "<<roda<<endl;
+}
+void motor::ukuranMotor(string ganalkahhalus){
+	cout <<"ukuran motor: "<<ganalkahhalus<<endl;
+}
+void motor::jumlahBan(int jumlah){
+	cout <<"jumlah ban: "<<jumlah<<" buting"<<endl;
+}
 	
